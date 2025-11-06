@@ -43,7 +43,7 @@ PassForge helps you create strong, secure passwords and check their strength ins
 
 ## 🧩 Demo  
 
-🎯 **Live Preview:** [View PassForge](https://krutzia.github.io/passforge/)  
+🎯 **Live Preview:** [View PassForge](https://krutzia.github.io/PassForge//)  
 
 Try generating strong passwords instantly and switch between themes to see the smooth transition.
 
