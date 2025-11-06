@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PassForge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🔐 PassForge</h1>
+
+    <div class="output">
+      <input type="text" id="password" placeholder="Click Generate" readonly>
+      <button id="copy">📋</button>
+    </div>
+
+    <div class="settings">
+      <label>Length: <span id="lengthValue">12</span></label>
+      <input type="range" id="length" min="4" max="32" value="12">
+
+      <label><input type="checkbox" id="upper" checked> Include Uppercase</label>
+      <label><input type="checkbox" id="lower" checked> Include Lowercase</label>
+      <label><input type="checkbox" id="number" checked> Include Numbers</label>
+      <label><input type="checkbox" id="symbol"> Include Symbols</label>
+    </div>
+
+    <button id="generate" class="generate-btn">Generate</button>
+
+    <div class="strength">
+      Strength: <span id="strengthText">-</span>
+      <div class="bar"><div id="strengthBar"></div></div>
+    </div>
+
+    <button id="themeToggle" class="theme-toggle">🌙</button>
+
+    <footer>
+      <p> Created with ❤️ by <strong>krutzia</strong></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
